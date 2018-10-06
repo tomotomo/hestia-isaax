@@ -22,6 +22,8 @@ if ( get_stylesheet() !== get_template() ) {
     } );
 }
 
+require_once get_stylesheet_directory().'/views/blog/override-blog-post-layout.php';
+
  /**
   * パンくずリスト表示
   * @link https://wemo.tech/356
