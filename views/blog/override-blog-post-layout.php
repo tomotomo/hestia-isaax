@@ -27,7 +27,7 @@ class Hestia_Blog_Post_Layout {
 	public function render( $layout ) {
 		$pid           = get_the_ID();
 		$article_class = $this->get_article_class( $layout );
-		$wrapper_class = $this->get_wrapper_class( $layout );
+        $wrapper_class = $this->get_wrapper_class( $layout );
 		$row_class     = 'row ';
 		if ( $layout === 'alt-1' ) {
 			$row_class = 'row alternative-blog-row ';
@@ -179,7 +179,7 @@ class Hestia_Blog_Post_Layout {
 		switch ( $layout ) {
 			case 'default':
 			case 'alt-1':
-				$classes = has_post_thumbnail() ? 'col-ms-7 col-sm-7' : 'col-sm-12';
+				$classes = 'col-ms-7 col-sm-7';
 				break;
 			case 'alt-2':
 				$classes = 'col-md-12';
