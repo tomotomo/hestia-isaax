@@ -1,0 +1,25 @@
+/*
+Theme Name: Hestia Isaax Camp
+Theme URI: https://www.themeisle.com/ 
+Description: This is a custom child theme I have created.
+Author: ThemeIsle
+URI: https://www.themeisle.com/ 
+Template: hestia
+Version: 0.1 
+*/
+
+#breadcrumb {
+    clear: both;
+    padding: 10px;
+    margin-bottom: 27px;
+}
+#breadcrumb ul {
+    padding-left: 0;
+}
+#breadcrumb li {
+    display: inline-block;
+    padding: 0 3px;
+}
+#breadcrumb li:before {
+    content: "> ";
+}
