@@ -23,3 +23,47 @@ Version: 0.1
 #breadcrumb li:before {
     content: "> ";
 }
+
+/**
+ * Override Hestia Styles
+ */
+ .hestia-blogs article:nth-of-type(6n+1) .category a,
+ .related.products ul li:nth-of-type(6n+1) .category a,
+ .woocommerce.archive .blog-post .products li:nth-of-type(6n+1) .category a,
+ .woocommerce .products li:nth-of-type(6n+1) .category a,
+ .shop-item:nth-of-type(6n+1) .category a,
+ .related-posts div:nth-of-type(6n+1) .category a {
+    color: #4caf50;
+ }
+ .hestia-blogs article:nth-of-type(6n+2) .category a,
+ .related.products ul li:nth-of-type(6n+2) .category a,
+ .woocommerce.archive .blog-post .products li:nth-of-type(6n+2) .category a,
+ .woocommerce .products li:nth-of-type(6n+2) .category a,
+ .shop-item:nth-of-type(6n+2) .category a,
+ .related-posts div:nth-of-type(6n+2) .category a {
+    color: #4caf50;
+ }
+ .hestia-blogs article:nth-of-type(6n+3) .category a,
+ .related.products ul li:nth-of-type(6n+3) .category a,
+ .woocommerce.archive .blog-post .products li:nth-of-type(6n+3) .category a,
+ .woocommerce .products li:nth-of-type(6n+3) .category a,
+ .shop-item:nth-of-type(6n+3) .category a,
+ .related-posts div:nth-of-type(6n+3) .category a {
+    color: #4caf50;
+ }
+ .hestia-blogs article:nth-of-type(6n+4) .category a,
+ .related.products ul li:nth-of-type(6n+4) .category a,
+ .woocommerce.archive .blog-post .products li:nth-of-type(6n+4) .category a,
+ .woocommerce .products li:nth-of-type(6n+4) .category a,
+ .shop-item:nth-of-type(6n+4) .category a,
+ .related-posts div:nth-of-type(6n+4) .category a {
+    color: #4caf50;
+ }
+ .hestia-blogs article:nth-of-type(6n+5) .category a,
+ .related.products ul li:nth-of-type(6n+5) .category a,
+ .woocommerce.archive .blog-post .products li:nth-of-type(6n+5) .category a,
+ .woocommerce .products li:nth-of-type(6n+5) .category a,
+ .shop-item:nth-of-type(6n+5) .category a,
+ .related-posts div:nth-of-type(6n+5) .category a {
+    color: #4caf50;
+ }
