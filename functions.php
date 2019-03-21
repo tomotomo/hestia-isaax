@@ -142,3 +142,23 @@ function breadcrumb(){
     $str.= '</div>';
     return $str;
 }
+
+
+/**
+ * 寄稿者にファイルアップロードを許可する
+ **/
+if ( current_user_can('contributor') && !current_user_can('upload_files') ){
+    add_action('admin_init', function () {
+        $contributor = get_role('contributor');
+        $contributor->add_cap('upload_files');
+	});
+}
+add_action('pre_get_posts',function($query){
+  global $current_user;
+  if(!is_admin()) return $query;
+  if($current_user->user_level>=5) return $query;
+  if($query->get('post_type')=='attachment'){
+    $query->set('author',$current_user->data->ID);
+  };
+  return $query;
+});
