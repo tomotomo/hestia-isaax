@@ -35,7 +35,7 @@ function breadcrumb(){
   
     $str.= '<div id="breadcrumb">';
     $str.= '<ul itemprop="Breadcrumb" itemscope itemtype="http://data-vocabulary.org/BreadcrumbList">';
-    $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="'.home_url('/').'" class="home"><span itemprop="name">Isaax Camp</span></a><meta itemprop="position" content="1"></li>';
+    $str.= '<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="'.home_url('/').'" class="home"><span itemprop="name">ツクレル</span></a><meta itemprop="position" content="1"></li>';
   
     /* 通常の投稿ページ */
     if(is_singular('post')){
